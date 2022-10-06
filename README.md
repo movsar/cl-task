@@ -14,7 +14,7 @@
 >2. Value changes must happen in the same order as they were requested
 >3. Value retrievals must be allowed in parallel without ordering
 
-### Solution1:
+### Solution 1:
 ServerImplementation1 - using "volatile" keyword and "Interlocked" class
-### Solution2:
+### Solution 2:
 ServerImplementation2 - using "volatile" and "lock" keywords
